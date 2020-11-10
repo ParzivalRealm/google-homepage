@@ -1,0 +1,65 @@
+/*this is style sheet for beginner google homepage*/
+
+
+
+#searchbar{
+    width: 484px;
+    height: 44px;
+    border-radius:24px;
+    border-color: rgba(32,33,36,.28);
+    border-width: 1px;
+    font-family: arial,sans-serif;
+    font-size:small
+    
+}
+
+.barraylogo{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    height:40%;
+    position: absolute;
+}
+
+.menu{
+    display:flex;
+    flex-flow: row-reverse wrap;
+
+}
+
+ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    
+}
+li{
+    display:inline;
+   
+}
+
+a{
+    color: black;
+}
+
+button{
+    background-color:#f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-size: 14px;
+    margin: 20px 4px;
+    padding: 0 16px;
+    height: 36px;
+    text-align: center;
+}
+
+.footer{
+    display:flex;
+    flex-flow: row wrap;
+    position: absolute;
+    height:-95%;
+    background-color: #f2f2f2;
